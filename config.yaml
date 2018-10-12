@@ -1,0 +1,150 @@
+baseURL: http://something-fresh.org/
+languageCode: en-us
+title: Bit Buckets Robotics
+theme: hugo-fresh
+
+params:
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: The Bit Buckets
+    # Hero subtitle (optional)
+    subtitle: Tucson's Community STEM Team
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "#"
+    # Hero image (from /images/___)
+    image: illustrations/bitb.svg
+    # Footer logos (from /images/logos/clients/___.svg)
+    clientlogos:
+    - uofa
+    - raytheon
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  
+  - title: About Us
+    sublinks:
+    - title: Wiki
+      url: /
+    - title: Git Repository
+      url: /
+    - title: Team Organization
+      url: /
+    - title: Team Handbook
+      url: /
+    - title: Calendar
+      url: /
+  
+  - title: Our Bots
+    sublinks:
+    - title: Most Recent Design  
+      url: /
+    - title: FRC Robots
+      url: /
+    - title: VEX Robots
+      url: /
+    - title: Design Process
+      url: /
+
+  - title: Support Us
+    sublinks:
+    - title: Donate
+      url: /
+    - title: Tax Credits
+      url: /
+  
+  - title: Join Us
+    url: /
+    button: True
+
+  sidebar:
+    logo: bitb
+
+  section1:
+    title: Incredible Opportunities
+
+    tiles:
+    - title: Experienced professionals
+      icon: chalkboard-teacher
+      text: Our students get to work with U of A professors and top engineers from around the world, including Raytheon and the military.
+      url: /
+      buttonText: Join Us
+
+    - title: Elite Colleges
+      icon: graduation-cap
+      text: Students attend elite colleges and universities such as Harvard, MIT, Stanford, Carnegie Mellon, and UC Berkeley.
+      url: /
+      buttonText: Join Us
+
+    - title: Experience and Exposure
+      icon: wrench-solid
+      text: Students learn a variety of skills that prepare them for college and the workforce and learn valuable leadership and teamwork skills.
+      url: /
+      buttonText: Join Us
+
+  section2:
+    title: About Us
+
+    features:
+    - title: What we do
+      text: The Bit Buckets is a community-based STEM team that competes in robotics competitions and other technical challenges. Our middle-school team competes in First Lego League (FLL) and our high-school team competes in First Robotics Competition (FRC).
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+
+    - title: Our Mission
+
+      text: Our mission is to motivate students with opportunities to solve realistic engineering problems. We enable team members to work on a team - and all aspects of running a team from fundraising to CAD, from programming to summer camps for middle and high school students.
+      icon: laptop-globe
+
+    - title: Our Vision
+
+      text: We envision a world where students are motivated to build productive relationships while responsibly applying knowledge through respect, leadership, and teamwork.
+      icon: laptop-globe
+
+  section3:
+    title: How can I help?
+    subtitle: You can donate time or money! We appreciate anything you can give.
+    image: illustrations/mockups/team_img.jpg
+    buttonText: Support Us
+    buttonLink: "#"
+
+  section4:
+    title: Our Presence in the Community
+    subtitle: In Arizona
+
+    clients:
+    - quote: We’ve worked with schools and the public library in the small town of Eagar, Arizona, prompting them to start a Vex Robotics team and eventually an FRC team - elkSPLOSION
+
+    - quote: We presented our robot at the Dusk Music Festival, Second Saturday, local malls, several small businesses, the Craft fair, and the University of Arizona Homecoming
+
+    - quote: We've visited several middle and high schools around Tucson to show off our FRC robot and hope to spread interest in STEM and FIRST robotics by engaging with the community.
+
+  footer:
+    # Logo (from /images/logos/___)
+    logo: bitb.svg
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/BitBucketsFRC4183
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://www.facebook.com/BitBuckets/
+      icon: facebook
+    - link: https://twitter.com/BitBuckets4183
+      icon: twitter
+    - link: https://www.youtube.com/channel/UCs8Dm7kN8RbiUrN_bf_3_tQ
+      icon: youtube
+    - link: https://www.instagram.com/bitbuckets4183/
+      icon: instagram
+
+    wiki:
+    - text: Mission
+      link: http://wiki.bitbuckets.org/index.php?title=Mission
+    - text: Vision
+      link: http://wiki.bitbuckets.org/index.php?title=Vision
+    - text: Administration
+      link: http://wiki.bitbuckets.org/index.php?title=Administration
+    - text: Subteams
+      link: http://wiki.bitbuckets.org/index.php?title=Subteams
